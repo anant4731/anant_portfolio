@@ -72,12 +72,23 @@ const Timeline = () => {
       <SectionDivider divider />
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        Hi, I'm Infvyr - a passionate frontend developer. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi cum cumque dolorem earum est harum impedit laborum, nobis odit porro quibusdam saepe suscipit! Accusamus adipisci aliquam amet consectetur dolore doloremque eaque earum eius, est eveniet fuga, id itaque laudantium natus nesciunt nihil obcaecati omnis possimus quibusdam repellat sed velit vero. A, accusamus, adipisci aliquam dolorem eveniet excepturi fuga incidunt libero minima nisi obcaecati quae saepe! Consectetur maiores natus reiciendis rem!
+        Welcome to my portfolio website! I am a dedicated and experienced
+        full-stack engineer with a passion for creating innovative and efficient
+        web solutions. With a strong foundation in both front-end and back-end
+        development, I have the ability to build robust and scalable
+        applications from start to finish.
       </SectionText>
       <SectionText>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus amet, beatae commodi consequuntur corporis cumque dicta doloremque eaque earum enim ex excepturi exercitationem fuga inventore ipsam, iste itaque laboriosam libero maiores, maxime nisi nulla odio odit omnis possimus quaerat quam quasi rerum sequi tempore temporibus vitae voluptates. Autem doloribus, veritatis! Atque aut inventore natus nulla quaerat suscipit tempore voluptates?
+        With a strong foundation in HTML, CSS, and JavaScript, I excel at
+        creating captivating user interfaces that deliver seamless user
+        experiences. I am proficient in modern frameworks such as React.js,
+        Angular, and Next.js, allowing me to build dynamic and interactive web
+        applications. On the back-end, I have a deep understanding of
+        programming languages like Node.js, and I utilize
+        frameworks like Express.js to architect robust
+        server-side solutions.
       </SectionText>
-      <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
+      {/* <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
           {TimeLineData.map((item, index) => (
             <CarouselMobileScrollNode
@@ -145,7 +156,7 @@ const Timeline = () => {
             </CarouselButton>
           );
         })}
-      </CarouselButtons>
+      </CarouselButtons> */}
     </Section>
   );
 };

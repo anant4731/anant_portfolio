@@ -7,7 +7,7 @@ export const HeaderContainer = styled.header`
   padding: 2rem 1rem;
   position: ${props => props.sticky ? "sticky" : null };
   top: ${props => props.sticky ? 0 : null };
-  background-color: ${props => props.theme.colors.bodyBgColor};
+  background-color: black;
   z-index: 21;
 
    @media ${(props) => props.theme.breakpoints.sm} {

@@ -12,14 +12,14 @@ const Header = () => {
       {route === '/' ? (
         <Div1>
           <span style={{display: 'flex', alignItems: 'center'}}>
-            @Vasile
+            ANANT
           </span>
         </Div1>
       ) : (
         <Div1>
           <Link href='/'>
             <a style={{display: 'flex', alignItems: 'center'}}>
-              @Infvyr
+              
             </a>
           </Link>
         </Div1>
@@ -33,7 +33,7 @@ const Header = () => {
         </li>
         <li>
           <Link href="#projects">
-            <NavLink>Projects</NavLink>
+            <NavLink>Experience</NavLink>
           </Link>
         </li>
         <li>
