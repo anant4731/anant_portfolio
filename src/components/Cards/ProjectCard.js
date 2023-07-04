@@ -13,7 +13,7 @@ import {
   TitleContent,
 } from "./CardStyles";
 import { BsPlusCircleFill } from "react-icons/bs";
-import ProjectModal from "../Modal/ProjectModal";
+// import ProjectModal from "../Modal/ProjectModal";
 
 const variants = {
   pageInitial: {
@@ -62,12 +62,12 @@ const ProjectCard = ({ item }) => {
         >
           <BsPlusCircleFill />
         </Button>
-        <ProjectModal
+        {/* <ProjectModal
           isOpen={isOpen}
           toggleModal={toggleModal}
           title={title}
           images={images}
-        />
+        /> */}
       </ImgContainer>
       <TitleContent>
         <HeaderThree title>{title}</HeaderThree>

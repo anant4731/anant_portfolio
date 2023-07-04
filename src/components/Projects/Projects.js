@@ -1,7 +1,7 @@
 import React from 'react';
 import {Section, SectionDivider, SectionTitle} from '../../styles/GlobalComponents';
 import { GridContainer } from './ProjectsStyles';
-import {ExternalLinks} from "../Cards/CardStyles";
+// import {ExternalLinks} from "../Cards/CardStyles";
 
 import {projects} from '../../constants/constants';
 import ProjectCard from "../Cards/ProjectCard";
@@ -18,7 +18,7 @@ const Projects = () => {
           .slice(0, 3)
         }
       </GridContainer>
-      <ExternalLinks href='/all-projects' className="link-to" title="See more projects">See more</ExternalLinks>
+      {/* <ExternalLinks href='/all-projects' className="link-to" title="See more projects">See more</ExternalLinks> */}
     </Section>
 )};
 
